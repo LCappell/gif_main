@@ -1,5 +1,5 @@
 {
-  "name": "gif-search",
+  "name": "gif_main",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://LCappell.github.io/gif_main",
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
     "gh-pages": "^3.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
