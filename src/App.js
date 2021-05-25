@@ -6,14 +6,11 @@ import GifList from "./Components/GifList";
 
 const apiKey = process.env.REACT_APP_API_KEY;
 
-export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      gifs: [],
-      loading: true,
-    };
-  }
+class App extends Component {
+  state = {
+    gifs: [],
+    loading: true,
+  };
 
   componentDidMount() {
     this.performSearch();
@@ -59,3 +56,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default App;
